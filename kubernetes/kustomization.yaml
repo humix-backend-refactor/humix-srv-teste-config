@@ -9,4 +9,4 @@ namespace: teste
 images:
 - name: imagem
   newName: blgianini/humix
-  newTag: a0ea02ea2eb8746a07100a647fec5b4a682f66ae
+  newTag: fc3737146891f7298ed23796e8062ffe8c88e38a
