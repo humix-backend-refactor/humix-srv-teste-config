@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: humix-srv-teste
+spec:
+  revisionHistoryLimit: 0
+  selector:
+    matchLabels:
+      app: humix-srv-teste
+  template:
+    metadata:
+      labels:
+        app: humix-srv-teste
+    spec:
+      containers:
+      - name: humix-srv-teste
+        image: imagem
+        ports:
+        - containerPort: 8080

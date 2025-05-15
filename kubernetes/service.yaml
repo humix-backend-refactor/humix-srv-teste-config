@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: humix-srv-teste
+spec:
+  selector:
+    app: humix-srv-teste
+  ports:
+  - port: 8080
+    targetPort: 8080
