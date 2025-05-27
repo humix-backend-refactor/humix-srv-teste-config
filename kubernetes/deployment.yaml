@@ -28,4 +28,6 @@ spec:
             value: "npg_DyGwIg7J2oBV"
           - name: DB_NAME
             value: "neondb"
+          - name: JWT_JOKEN
+            value: "jwt-humix-token"
 
